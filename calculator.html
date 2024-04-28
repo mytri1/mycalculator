@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js">
+    </script>
+  </head>
+  <body>
+    <input id="inform" readonly>
+    <div id="grid" class="num">
+      <button onclick="display('1')" id="1" class="button">1</button>
+      <button onclick="display('2')" id="2" class="button">2</button>
+      <button onclick="display('3')" id="3"class="button">3</button>
+      <button onclick="display('4')" id="4"class="button">4</button>
+      <button onclick="display('5')" id="5"class="button">5</button>
+      <button onclick="display('6')" id="6"class="button">6</button>
+      <button onclick="display('7')" id="7"class="button">7</button>
+      <button onclick="display('8')" id="8"class="button">8</button>
+      <button onclick="display('9')" id="9"class="button">9</button>
+      <button onclick="bye()" class="button">⌫</button>
+      <button onclick="display('0')" id="zero" class="button">0</button>
+      <button onclick="display('.')" class="button">.</button>
+    </div>
+    <div class="sgrid">
+    <button onclick="display(' + ')" class="s">+</button>
+    <button onclick="display(' - ')" class="s">-</button>
+    <button onclick="display(' / ')" class="s">/</button>
+    <button onclick="display(' * ')" class="s">x</button>
+    <button onclick="display(' * 3.14 ')" class="s">π</button>
+    <button onclick="cal()"  class='s'>=</button>
+  </div>
+  </body>
+</html>
