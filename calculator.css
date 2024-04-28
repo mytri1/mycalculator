@@ -52,10 +52,3 @@ body{
   display: grid;
   grid-template-columns: auto auto;
 }
-.hide{
-  color: white;
-  background-color: black;
-}
-.hide:hover{
-  cursor: pointer;
-}
